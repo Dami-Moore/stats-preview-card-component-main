@@ -108,7 +108,7 @@ span {
 @media only screen and (max-width: 900px) {
     .container {
         flex-direction: column-reverse;
-        width: 320px;
+        width: 365px;
         margin: 0 auto;
     }
 
@@ -157,10 +157,10 @@ span {
 
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .main-paragraph {
-        font-size: 0.75rem;
+        font-size: 0.9rem;
     }
 }
