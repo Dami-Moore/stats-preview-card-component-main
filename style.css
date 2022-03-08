@@ -108,14 +108,13 @@ span {
 @media only screen and (max-width: 900px) {
     .container {
         flex-direction: column-reverse;
-        width: 365px;
-        margin: 0 auto;
+        max-width: 300px;
+        margin: 50px auto 0; 
     }
 
     .picture-box  {
         height: 200px;
-        width: 87%;
-        margin: 50px auto 0;
+        width: 100%;
     }
 
     .color {
@@ -137,10 +136,10 @@ span {
 
     .info {
         padding-bottom: 50px;
-        margin: 0 auto;
         text-align: center;
         border-top-left-radius: 0px;
         border-bottom-right-radius: 10px;
+        max-width: 100%;
     }
 
     .grid-layout {
@@ -161,6 +160,6 @@ span {
     }
 
     .main-paragraph {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 }
